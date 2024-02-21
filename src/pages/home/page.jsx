@@ -18,7 +18,7 @@ function Home() {
           </div>
           <div className="h-20 w-full grid grid-cols-[2fr_1fr] gap-4">
             <Button link="/work" >My work</Button>
-            <Button link="/work" >Github</Button>
+            <Button link="https://github.com/ronishrohan" >Github</Button>
           </div>
         </div>
       </div>

@@ -4,7 +4,12 @@ import { useNavigate } from "react-router-dom";
 function Button({ children, link }) {
   const navigate = useNavigate();
   function handleClick() {
-    navigate(link);
+    if(link[0]=="/"){
+        navigate(link);
+    }
+    else{
+        window.open(link)
+    }
   }
 
   return (
