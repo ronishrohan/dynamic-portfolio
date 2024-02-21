@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("/fonts/space-grotesk.woff2");
+}
+
+body{
+    font-display: swap;
+    font-family: "Space Grotesk";
+}
