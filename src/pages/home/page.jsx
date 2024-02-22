@@ -6,7 +6,7 @@ import Button from "./components/Button";
 function Home() {
   return (
     <Section>
-      <div className="w-full min-h-screen pt-12 p-4 grid grid-cols-[1fr_1fr]">
+      <div className="w-full  p-4 grid gap-4 grid-cols-[1fr_1fr]">
         <div className="flex flex-col justify-between h-full">
           <div>
             <Title>Hello!</Title>
@@ -17,9 +17,16 @@ function Home() {
             </div>
           </div>
           <div className="h-20 w-full grid grid-cols-[2fr_1fr] gap-4">
-            <Button link="/work" >My work</Button>
-            <Button link="https://github.com/ronishrohan" >Github</Button>
+            <Button link="/work">My work</Button>
+            <Button link="https://github.com/ronishrohan">Github</Button>
           </div>
+        </div>
+        <div className="size-full grid place-items-center overflow-hidden">
+          <img
+            src="/images/banan.png"
+            className="max-h-[70vh] w-[100%] object-cover"
+            alt=""
+          />
         </div>
       </div>
     </Section>
