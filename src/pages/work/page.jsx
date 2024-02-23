@@ -19,7 +19,7 @@ function Work() {
     <Section>
       <div className="flex flex-col size-full p-4 gap-4">
         {loading ? (
-          <div>loading</div>
+          <div className="h-screen w-full grid place-items-center">loading</div>
         ) : (
           <>
             <Current repo={data[0]}></Current>

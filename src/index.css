@@ -10,6 +10,7 @@
 body{
     font-display: swap;
     font-family: "Space Grotesk";
+    background-color: #252f9c;
 }
 
 ::-webkit-scrollbar{
