@@ -9,8 +9,8 @@ import { PageTransition } from "./hooks/usePageTransition";
 function App() {
   return (
     <>
-      <Header></Header>
       <PageTransition>
+        <Header></Header>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
