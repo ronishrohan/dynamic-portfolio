@@ -1,16 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { usePageTransition } from "../../../hooks/usePageTransition";
 
 function Button({ children, link }) {
-  const { open } = usePageTransition();
   const navigate = useNavigate();
   function handleClick() {
     if (link[0] == "/") {
-      open();
-      setTimeout(() => {
-        navigate(link);
-      }, 1000);
+      navigate(link);
     } else {
       window.open(link);
     }
