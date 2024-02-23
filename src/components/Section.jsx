@@ -12,7 +12,7 @@ function Section({ children }) {
       initial={{ opacity: 0, scale: 1.02 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.98 }}
-      transition={{type:"spring", damping: 20, stiffness: 100}}
+      transition={{type:"tween", duration: 0.2}}
       className="min-h-screen max-h-fit w-full flex pt-12 bg-background text-white"
     >
       {children}
