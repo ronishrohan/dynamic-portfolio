@@ -7,7 +7,7 @@ function Home() {
   return (
     <Section>
       <div className="w-full  p-4 grid gap-4 grid-cols-[1fr_1fr]">
-        <div className="flex flex-col justify-between h-full">
+        <div className="flex flex-col justify-between h-full z-20">
           <div>
             <Title>Hello!</Title>
             <div className="text-white mt-8 text-6xl font-bold flex flex-col">
@@ -23,8 +23,9 @@ function Home() {
         </div>
         <div className="size-full grid place-items-center overflow-hidden">
           <img
+          title="banan"
             src="/images/banan.png"
-            className="max-h-[70vh] w-[100%] object-cover"
+            className="max-h-[70vh] w-[100%] object-cover absolute sm:relative z-10"
             alt=""
           />
         </div>

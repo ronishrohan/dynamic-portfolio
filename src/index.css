@@ -11,3 +11,7 @@ body{
     font-display: swap;
     font-family: "Space Grotesk";
 }
+
+::-webkit-scrollbar{
+    width: 0;
+}

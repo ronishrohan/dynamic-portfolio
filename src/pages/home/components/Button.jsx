@@ -15,7 +15,7 @@ function Button({ children, link }) {
   return (
     <button
       onClick={handleClick}
-      className="bg-black border-4 border-header-text hover:border-white text-2xl font-semibold  w-full h-full"
+      className="bg-black border-4 border-header-text hover:border-white text-2xl font-semibold transition-colors w-full h-full"
 
     >
       {children}
